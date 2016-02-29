@@ -1,0 +1,38 @@
+{
+  "name": "webpack-react-foundation",
+  "version": "1.0.0",
+  "description": "sample for webpack/react/foundation",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/after9/webpack-react-foundation.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "foundation"
+  ],
+  "author": "Ron.Chow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/after9/webpack-react-foundation/issues"
+  },
+  "homepage": "https://github.com/after9/webpack-react-foundation",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7"
+  }
+}
